@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './App.css';
 import Calc from './Calc';
-import Card from './Card';
+import Cards from './Cards';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         </Col>
         <Col sm={8}>
         <h2 className="display-6 mb-4">&lt;Card /&gt;</h2>
-          <Card />
+          <Cards />
         </Col>
       </Row>
     </Container>
