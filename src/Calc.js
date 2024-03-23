@@ -114,7 +114,7 @@ function Calc() {
 
         </Form>
 
-        <div class="bottomElement">
+        <div className="bottomElement">
                 <div>
                   <div>Tax Accrual:</div> <div /* :class="{red:taxAccrual<0, green:taxAccrual>0} "*/>numberWithCommasAndDollarSign(taxAccrual)</div>
                 </div>
